@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auction Bluesky</title>
+  </head>
+  <body>
+      <div class="user">
+          
+      </div>
+      <button onclick="joinPhoneAuction(event)">Join Phone Auction</button>
+      <button onclick="joinTvAuction(event)">Join TV Auction</button>
+
+    <form onsubmit="handleForm(event)">
+      <input type="number" placeholder="bidamout in rs" id="bid" />
+      <button>Make a Bid</button>
+    </form>
+    <script
+      src="https://cdn.socket.io/4.4.1/socket.io.min.js"
+      integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/auction.js"></script>
+  </body>
+</html>
